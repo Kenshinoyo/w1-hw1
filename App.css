@@ -1,0 +1,65 @@
+/* .App {
+  text-align: center;
+} */
+
+#container{
+ display: flex;
+ justify-content: space-between;
+}
+
+.Sidebar{
+  width: 15vw;
+  height: 100vh;
+  font-size: x-large;
+  text-align: center;
+  background-color: grey;
+  border: 1px solid black;
+  display: grid;
+}
+
+#sideText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Reviews{
+  width: 20vw;
+  height: 35vh;
+  font-size: x-large;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.Average{
+  width: 20vw;
+  height: 35vh;
+  font-size: x-large;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+.Analysis{
+  width: 20vw;
+  height: 35vh;
+  font-size: x-large;
+  text-align: center;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+#webVisit{
+  display: flex;
+  justify-content: center;
+
+}
+
+.Visitors{
+  width: 20vw;
+  height: 35vh;
+  font-size: x-large;
+  text-align: center;
+  background-color: grey;
+  border: 1px solid black;
+  display: flex;
+}
