@@ -48,18 +48,18 @@
   border: 1px solid black;
 }
 
-#webVisit{
-  display: flex;
-  justify-content: center;
-
-}
-
-.Visitors{
-  width: 20vw;
+.visitBox{
+  width: 75vw;
   height: 35vh;
-  font-size: x-large;
-  text-align: center;
   background-color: grey;
   border: 1px solid black;
   display: flex;
+  flex-flow: column wrap;
+  align-content: flex-end;
+}
+
+#webVisit{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
 }
